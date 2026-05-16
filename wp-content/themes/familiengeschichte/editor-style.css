@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 1.75;
+    color: #1A1A1A;
+    max-width: 720px;
+    background-color: #FAFAF7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    line-height: 1.25;
+}
+
+a { color: #8B1A1A; }
+
+blockquote {
+    border-left: 3px solid #8B1A1A;
+    padding-left: 2rem;
+    font-style: italic;
+    color: #666660;
+}
+
+.has-accent-color { color: #8B1A1A; }
+.has-accent-background-color { background-color: #8B1A1A; }
+.has-text-color { color: #1A1A1A; }
+.has-text-secondary-color { color: #666660; }
+.has-background-background-color { background-color: #FAFAF7; }
+.has-surface-background-color { background-color: #F5F2EB; }

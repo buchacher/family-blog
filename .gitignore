@@ -1,1 +1,27 @@
 .DS_Store
+Thumbs.db
+
+# WordPress uploads (user media, not version-controlled)
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# WordPress plugins (installed via setup script)
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+blog-tools/.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
